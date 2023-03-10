@@ -1,0 +1,21 @@
+name: json_server
+description: Simple JSON server CLI.
+version: 0.0.1
+homepage: https://github.com/infilos/json-server
+repository: https://github.com/infilos/json-server
+issue_tracker: https://github.com/infilos/json-server/issues
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  path: ^1.8.3
+  args: ^2.3.1
+  dcli: ^2.0.1
+
+dev_dependencies:
+  pedantic: ^1.11.1
+  test: ^1.23.1
+
+executables:
+  jserve: main
